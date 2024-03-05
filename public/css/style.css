@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: black;
+  font-family:"Lucida Console", Courier;
+  }
+
+  header{
+    border-bottom: 1px solid white;
+  }
+  
+  #container {
+  margin:auto;
+  max-width:500px;
+  height:auto;
+  border: 1px solid white;
+  padding: 5px;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-style:italic;
+    text-transform:lowercase;
+    font-family: "Times New Roman";
+    
+  }
+  
+  p, ul{
+    font-family:"Lucida Console", Courier;
+    font-size: 14px;
+    color:white;
+  }
+  
+  a:link {
+    color: #FF0000;
+  }
+  
+  a:visited {
+    color: #00FF00;
+  }
+  
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  
+  a:active {
+    color: #0000FF;
+  } 
