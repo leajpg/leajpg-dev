@@ -1,17 +1,20 @@
 name: Deploy to neocities
 
-# only run on changes to main
 on:
   push:
     branches:
-      - main
+      - main # Change to name of branch you're deploying from
+
+concurrency:
+  group: deploy-to-neocities
+  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       # When the dist_dir is ready, deploy it to neocities
       - name: Deploy to neocities
         uses: bcomnes/deploy-to-neocities@v1
