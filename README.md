@@ -1,1 +1,1 @@
-[leajpg.neocities.org](https://leajpg.neocities.org/)
+[https://leajpg.dev/](https://leajpg.dev/)
